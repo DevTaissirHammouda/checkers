@@ -78,10 +78,10 @@ class GameUI extends JFrame implements GameObserver {
                 if (piece == '.') {
                     buttons[i][j].setText("");
                 } else if (piece == 'x') {
-                    buttons[i][j].setText("\u2659"); // White pawn symbol
+                    buttons[i][j].setText("♙"); // White pawn symbol
                     buttons[i][j].setForeground(Color.WHITE);
                 } else if (piece == 'o') {
-                    buttons[i][j].setText("\u265F"); // Black pawn symbol
+                    buttons[i][j].setText("♟"); // Black pawn symbol
                     buttons[i][j].setForeground(Color.BLACK);
                 } else {
                     buttons[i][j].setText("");
